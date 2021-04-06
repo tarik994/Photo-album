@@ -1,0 +1,73 @@
+body{
+    background: url('background.jpg');
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+.wrapper{
+    margin: auto;
+    width: 900px;
+    text-align: center;
+}
+#slika{
+    width: 450px;
+    height: 400px;
+}
+
+#galerija{
+    margin: auto;
+    width:500px ;
+    height: 500px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: gray;
+    
+    
+    
+}
+
+.addPhoto{
+    width: 500px;
+    background-color: rgb(54, 130, 173);
+    margin-bottom: 10px;
+}
+input{
+    width: 500px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    border:1px solid gray;
+    
+  
+}
+button{
+    width: 100%;
+    height: 40px;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+button:hover{
+    opacity: .7;
+}
+
+.next{
+    background-color: rgb(35, 194, 35);
+    margin-bottom: 4px;
+    
+}
+
+.prev{
+    background-color: rgb(185, 19, 19);
+}
+
+#photo{
+    background-color: rgb(243, 243, 42);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
